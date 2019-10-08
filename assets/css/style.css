@@ -1,0 +1,25 @@
+#pic{
+    width: 200px;
+    height: 100px;
+    float: right
+}
+#name{
+    float: left
+}
+#links{
+    float: right;
+}
+h1{
+    margin: auto;
+}
+h2{
+    width: 200px;
+    color: white;
+    background-color: green;
+    text-decoration: underline;
+    
+}
+#message{
+    height: 200px;
+    width: 400px;
+}
