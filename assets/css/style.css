@@ -1,25 +1,62 @@
+body{
+    background: lightgray;
+    width: 960px;
+}
+.header{
+    margin-bottom: 20px;
+    background: white;
+}    
+h1{
+    text-align: center;
+    color: white;
+    background: #1abc9c;
+    padding: 20px;
+    float: left;
+}
+#links{
+    word-spacing: 20px;
+    padding: 40px;
+    float: right;
+}
+.header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.content{
+    height: 350px;
+    background: white;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+h2{
+    color: #1abc9c;
+    border-bottom: 1px solid #aaa;
+}
 #pic{
     width: 200px;
     height: 100px;
     float: right
 }
-#name{
-    float: left
+.content::after{
+    content: "";
+    display: table;
+    clear: both;
 }
-#links{
-    float: right;
+.footer{
+    height: 30px;
+    background: grey;
+    font-size: 10px;
+    text-align: center;
+    border-top: 3px solid #1abc9c;
 }
-h1{
-    margin: auto;
+a:hover{
+    color: #1abc9c ;
 }
-h2{
-    width: 200px;
-    color: white;
-    background-color: green;
-    text-decoration: underline;
-    
+a:focus{
+    background-color: lightgray;
 }
-#message{
-    height: 200px;
-    width: 400px;
+a:active{
+    color: black;
 }
+
