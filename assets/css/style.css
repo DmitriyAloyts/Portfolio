@@ -64,7 +64,7 @@ h2{
     display: table;
     clear: both;
 }
-#text-me{
+.text-me{
     color: #777777;
 }
 form{
