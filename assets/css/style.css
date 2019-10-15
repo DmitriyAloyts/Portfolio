@@ -40,13 +40,15 @@ h1{
     clear: both;
 }
 .content{
-    height: 350px;
     background: #ffffff;
     border: 2px solid #dddddd;
     margin-bottom: 40px;
     padding: 20px;
-    overflow: auto;
-
+}
+.content::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 h2{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
