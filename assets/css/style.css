@@ -2,7 +2,7 @@ body{
     min-height: 100vh; 
     position: relative; 
     padding-bottom: 30px;
-    width: 960px;
+    width: fit-content;
     margin: auto;
     background-image: url("../images/criss-cross.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
