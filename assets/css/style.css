@@ -43,13 +43,14 @@ h2{
     color: #4aaaa5;
     border-bottom: 1px solid #aaa;
 }
-#pic{
-    width: 150px;
-    height: 80px;
-    padding-right: 20px;
+.responsive{
+    width: 100%;
+    max-width: 400px;
+    height: auto; 
     float: left; 
+    padding-right: 20px;
 }
-#pic::after{
+.responsive::after{
     content: "";
     display: table;
     clear: both;
@@ -67,16 +68,19 @@ input{
     position: relative;
 }
 .project-pic{
-    width: 200px;
-    height: 200px;
-    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    /* width: 200px;
+    height: 200px; */
+    padding-bottom: 10px; 
 }
 .project-txt{
     position: absolute;
     bottom: 10px;
-    width: 180px;
+    width: 100%;
     text-align: center;
-    left: 10px;
+    /* left: 10px; */
     color: #ffffff;
     background: #4aaaa5;
 }
