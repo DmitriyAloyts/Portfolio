@@ -28,6 +28,7 @@ h1{
     word-spacing: 20px;
     padding: 40px;
     width: max-content;
+    margin: auto;
 }
 .link-cls{
     color: #777777;
@@ -50,7 +51,7 @@ h2{
     float: left; 
     padding-right: 20px;
 }
-.responsive::after{
+.content::after{
     content: "";
     display: table;
     clear: both;
