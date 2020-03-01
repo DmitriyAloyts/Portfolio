@@ -10,3 +10,4 @@ The background pattern used was found on [Subtle Patterns](https://subtlepattern
 
 The web site uses these concepts: responsive layout and responsive pitures.
 
+Link to live app is https://dmitriyaloyts.github.io/Portfolio/
