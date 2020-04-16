@@ -1,13 +1,16 @@
-My web developer professional portfolio site using HTML and CSS.
+Portfolio
+==========
+Dmitriy's professional portfolio site. The web site uses Mobile First Design. 
 
-The `css` folder contains `style.css`.
+Getting Started
+===============
+Click https://dmitriyaloyts.github.io/Portfolio/
 
-Profile image in `index.html`:
-
-Portfolio images in `images` folder.
-
+Built With
+==========
+CSS3
+HTML5
+JavaScript
 The background pattern used was found on [Subtle Patterns](https://subtlepatterns.com/). 
 
-The web site uses these concepts: responsive layout and responsive pitures.
-
-Link to live app is https://dmitriyaloyts.github.io/Portfolio/
+Hire me!
